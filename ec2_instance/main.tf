@@ -33,7 +33,7 @@ instance_type = "t2.micro"
 key_name = "lab-key"
 vpc_security_group_ids = [aws_security_group.web_sg.id]
 tags = {
-"Name" = "My Lab 2 Server"
+"Name" = "My Lab 2 Server Jenkins"
 }
 
 user_data = <<-EOF
