@@ -14,7 +14,7 @@ provider "aws" {
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-  bucket = "lab2-terraform-imim23"
+  bucket = "lab2-terraform-jenkins"
 
   tags = {
     Name        = "Website"
