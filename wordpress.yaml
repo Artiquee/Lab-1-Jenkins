@@ -6,10 +6,11 @@
   "Parameters" : {
 
     "KeyName": {
-      "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instances",
-      "Type": "AWS::EC2::KeyPair::lab-key",
-      "ConstraintDescription" : "EC2 KeyPair."
-    },
+    "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instances",
+    "Type": "String",
+    "Default": "lab-key",
+    "ConstraintDescription" : "EC2 KeyPair."
+},
 
     "InstanceType" : {
       "Description" : "WebServer EC2 instance type",
