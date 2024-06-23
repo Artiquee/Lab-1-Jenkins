@@ -60,7 +60,7 @@
   "MaxLength": "41",
   "AllowedPattern": "[a-zA-Z0-9]*",
   "ConstraintDescription": "must contain only alphanumeric characters.",
-  "Default": "RandomPassword123!" 
+  "Default": "RandomPassword123" 
 },
 
 "DBRootPassword": {
@@ -71,7 +71,7 @@
   "MaxLength": "41",
   "AllowedPattern": "[a-zA-Z0-9]*",
   "ConstraintDescription": "must contain only alphanumeric characters.",
-  "Default": "RandomRootPassword123!"
+  "Default": "RandomRootPassword123"
     }
   },
 
